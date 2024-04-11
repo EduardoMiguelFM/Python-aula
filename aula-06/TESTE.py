@@ -1,0 +1,1 @@
+print("Então o resultado vai ser: "), print ("11//2")
