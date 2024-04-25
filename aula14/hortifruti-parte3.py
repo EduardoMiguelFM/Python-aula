@@ -9,7 +9,7 @@ def gravar_lista():
     produto["preco"] = float(input("Digite o preço do produto: "))
     produto["unidade_medida"] = input("Informe a unidade de medida: ")
     lista.append(produto)
-
+   
 
 def exibir_produto( produto ):
     print(f"Produto: {produto['nome']} Cor: {produto['cor']}", )
@@ -43,6 +43,7 @@ while executando:
         \n\n\n
         Digite sua opção ==> 
     '''
+    
 
     print(menu)
     opcao = input().lower()[0]
