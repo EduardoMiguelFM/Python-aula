@@ -2,8 +2,13 @@ import os
 import oracledb
 
 
+<<<<<<< HEAD
 usuario =os.environ.get ("FIAP_ORACLE_USER")
 senha = os.environ.get ("FIAP_ORACLE_PASS")
+=======
+usuario =os.environ.get ("PYTHON_ORACLE_USER")
+senha = os.environ.get ("PYTHON_ORACLE_PASS")
+>>>>>>> 9ced7d1c094e98bed276bc49e3e02453d6f7a1a5
 db_path="oracle.fiap.com.br:1521/orcl"
 
 
