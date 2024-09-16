@@ -1,0 +1,8 @@
+POST http://127.0.0.1 HTTP/1.1
+Content-Type: application/json
+Content-Length: 
+{
+    "nome": "Joao Silva",
+    "telefone": "(11) 1111-1111",
+    "email": "joao@teste.com"
+}
